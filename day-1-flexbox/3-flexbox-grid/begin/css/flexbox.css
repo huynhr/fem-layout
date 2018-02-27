@@ -25,6 +25,27 @@ a {
 	background-color: #fff;
 }
 
+.four {
+	display: flex;
+	background-color: #5b9aff;
+	justify-content: center;
+	align-items: center;
+}
+
+.two {
+	display: flex;
+}
+
+.narrowLeftLargeRight {
+	display: flex;
+	background-color: #34497A;
+}
+
+.narrowLeftLargeRight article:last-child {
+	flex-basis: 150%;
+	background-color: #ccffff;
+}
+
 div img {
 	width: 100%;
 	max-width: 225px; 
